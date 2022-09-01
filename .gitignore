@@ -1,0 +1,9 @@
+# Node
+node_modules/
+
+# Build
+dist/
+
+# Personal testing until real testing is done
+src/testing.ts
+src/testing.js

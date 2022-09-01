@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        // ES2021 is required for String.prototype.replaceAll
+        // DOM is required to type-check the DOM APIs used to
+        // scrape the homeworks themselves. (DOM is not used
+        // in the NodeJS side, only puppeteer)
+        "lib": ["ES2021", "DOM"],
+    }
+}
