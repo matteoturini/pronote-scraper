@@ -18,7 +18,7 @@ import * as puppeteer from "puppeteer";
 
 namespace ProNOTEScraper {
     // TODO: Add `done` property.
-    interface Homework {
+    export interface Homework {
         subject: string;
         task: string;
         attachments?: string[];
@@ -32,7 +32,7 @@ namespace ProNOTEScraper {
     // TODO: Add scheduled events
     // TODO: Add grades
     // TODO: Add competences
-    interface UserData {
+    export interface UserData {
         homeworks: Homework[];
     }
 
