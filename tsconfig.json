@@ -5,5 +5,10 @@
         // scrape the homeworks themselves. (DOM is not used
         // in the NodeJS side, only puppeteer)
         "lib": ["ES2021", "DOM"],
+
+        "target": "ES2021",
+        "module": "CommonJS",
+        "sourceMap": true,
+        "inlineSourceMap": true
     }
 }
